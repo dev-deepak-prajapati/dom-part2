@@ -5,11 +5,13 @@ h1.style.backgroundColor = "red";
 h1.style.color = "yellow";
 h1.style.wordSpacing = "1rem";
 h1.style.textAlign = "center";
+/**-------------------------------------------- */
 
 const heading = document.querySelector("#heading");
 heading.innerHTML = "<h2>Welcome To DeepSeaWorlds<h2>";
 heading.style.backgroundColor = "yellow";
 heading.style.textAlign = "center";
+/**-------------------------------------------- */
 
 const p = document.querySelector("p");
 p.style.color = "green";
@@ -17,11 +19,13 @@ p.style.fontSize = "24px";
 p.style.fontWeight = "bold";
 p.style.textAlign = "center";
 p.style.backgroundColor = "#ccc";
+/**-------------------------------------------- */
 
 const title = document.querySelector(".title");
 const textBtn = document.querySelector("#textBtn");
 const bgBtn = document.querySelector("#bgBtn");
 
+/**-------------------------------------------- */
 const colorList = ["red", "yellow", "blue", "aqua", "orange"];
 
 textBtn.addEventListener("click", () => {
@@ -42,4 +46,3 @@ bgBtn.addEventListener("click", () => {
 
   title.style.background = COLOR;
 });
-

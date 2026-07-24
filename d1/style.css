@@ -1,0 +1,68 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 1rem auto 0;
+  border-radius: 50%;
+  border-top: 30px solid rgb(243, 141, 141);
+  border-left: 30px solid rgb(83, 52, 223);
+  border-right: 30px solid rgb(165, 11, 127);
+  border-bottom: 30px solid rgb(223, 52, 52);
+  background: radial-gradient(circle, aqua, orange, red);
+  box-shadow:
+    0px 0px 20px 20px #ccc,
+    inset 0px 0px 100px 10px #ee7503b0;
+  transition: all linear 0.4s;
+  animation: earth 4s linear infinite;
+}
+
+@keyframes earth {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.container {
+  padding: 10px;
+display: flex;flex-direction: column;
+}
+.title {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid rgb(206, 171, 171);
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(160, 109, 109, 0.705);
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(80, 131, 95);
+  word-spacing: 5px;
+  margin: 10px;
+}
+button {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: large;
+  color: rgb(214, 213, 213);
+  cursor: pointer;
+  background: rgb(31, 131, 197);
+  transition: 0.1s;
+  box-shadow:
+    10px 5px 10px #7592f5,
+    inset 0px 0px 15px 5px #ccc;
+}
+button:hover {
+  transform: translate(0px, -3px);
+  color: rgb(204, 206, 235);
+}
+

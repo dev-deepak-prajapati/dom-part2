@@ -33,6 +33,6 @@ div.after(p8); // last pos pr add karta hai
 const pos = ["afterbegin", "afterend", "beforebegin", "beforeend"];
 for (p of pos) {
   const ele = document.createElement("span");
-  ele.innerText = p;
+  ele.innerText = `using insertAdjacentElement : ${p} `;
   div.insertAdjacentElement(p, ele);
 }

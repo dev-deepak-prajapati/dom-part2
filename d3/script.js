@@ -36,3 +36,6 @@ for (p of pos) {
   ele.innerText = `using insertAdjacentElement : ${p} `;
   div.insertAdjacentElement(p, ele);
 }
+
+const removeParaEle = div.children[4];
+removeParaEle.remove();

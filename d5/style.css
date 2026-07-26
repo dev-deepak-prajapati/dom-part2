@@ -51,6 +51,7 @@ span {
 .newBox p:hover {
   cursor: pointer;
   text-align: center;
+  transform: translate(10px, -7px);
   box-shadow:
     0px 0px 15px 2px #eafc4dd0,
     inset 0px 0px 20px 2px #3cff01;

@@ -9,6 +9,7 @@
   background: #f1aeaeb9;
   margin: 20px;
   padding: 20px;
+  user-select: none;
   border-radius: 10px;
 }
 
